@@ -1,10 +1,3 @@
-#Importação das bibliotecas, Dash, Plotly, Nump, Pandas e Json ( com base na data de produçaõ do video 2021)
-#pip install dash-bootstrap-components==1.0.0
-#pip install dash==2.0.0
-#pip install plotly==5.3.1
-#pip install numpy==1.21.0
-#pip install pandas==1.3.3
-
 import dash 
 from dash import dcc
 from dash import html
@@ -21,7 +14,7 @@ import json
 CENTER_LAT, CENTER_LON = -14.272572694355336, -51.25567404158474
 
 #Ler o arquivo .CSV e começar a separar as informações ( usar somente quando for atualizar as informações)
-#df = pd.read_csv("HIST_PAINEL_COVIDBR_2023_Parte1_11mar2023.csv", sep=";")
+#df = pd.read_csv("HIST_PAINEL_COVIDBR_2022_Parte2_26abr2023.csv", sep=";")
 #df_states = df[(~df["estado"].isna()) & (df["codmun"].isna())]
 #df_brasil = df[df["regiao"] == "Brasil"]
 #df_states.to_csv("df_states.csv")
